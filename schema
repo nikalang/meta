@@ -26,8 +26,8 @@ structure
 boolean
   final           true
   values
-  -               false
-  -               true
+  -               "false"
+  -               "true"
 number
   final           true
 text
