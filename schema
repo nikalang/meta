@@ -1,0 +1,34 @@
+root
+  initial         true
+  children
+  -               repository
+repository
+  children
+  -               branch
+branch
+  children
+  -               directory
+  -               file
+directory
+  children
+  -               directory
+  -               file
+file
+  children
+  -               structure
+  -               text
+structure
+  children
+  -               structure
+  -               text
+  -               number
+  -               boolean
+boolean
+  final           true
+  values
+  -               false
+  -               true
+number
+  final           true
+text
+  final           true
